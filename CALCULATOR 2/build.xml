@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <lib>w32api/libmingw32.a</lib>
+  <lib>w32api/libmingwex.a</lib>
+  <lib>w32api/libgcc.a</lib>
+  <lib>w32api/libmsvcrt.a</lib>
+  <lib>w32api/libmoldname.a</lib>
+  <lib>w32api/libkernel32.a</lib>
+  <lib>w32api/libuser32.a</lib>
+  <lib>w32api/libadvapi32.a</lib>
+  <lib>w32api/libshell32.a</lib>
+  <jar>E:\MARTIN 2\JAVA\PROJECT\CALCULATOR 2\dist\CALCULATOR_2.jar</jar>
+  <outfile>E:\MARTIN 2\JAVA\PROJECT\CALCULATOR 2\dist\CALCULATOR_2.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>idle</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>E:\MARTIN 2\JAVA\PROJECT\CALCULATOR 2\dist\1673881716261.ico</icon>
+  <singleInstance>
+    <mutexName>mx_calc</mutexName>
+    <windowTitle>mx_calc</windowTitle>
+  </singleInstance>
+  <classPath>
+    <mainClass>CALCULATOR.FIRST</mainClass>
+    <cp>lib/AbsoluteLayout.jar</cp>
+  </classPath>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>true</requires64Bit>
+    <minVersion>1.7.1</minVersion>
+    <maxVersion></maxVersion>
+    <initialHeapSize>5</initialHeapSize>
+    <initialHeapPercent>50</initialHeapPercent>
+    <maxHeapSize>50</maxHeapSize>
+    <maxHeapPercent>50</maxHeapPercent>
+  </jre>
+  <messages>
+    <startupErr>An error occurred while starting the application.</startupErr>
+    <jreNotFoundErr>This application requires a Java Runtime Environment.</jreNotFoundErr>
+    <jreVersionErr>This application requires a Java Runtime Environment</jreVersionErr>
+    <launcherErr>The registry refers to a nonexistent Java Runtime Environment installation or the runtime is corrupted.</launcherErr>
+    <instanceAlreadyExistsMsg>An application instance is already running.</instanceAlreadyExistsMsg>
+  </messages>
+</launch4jConfig>
